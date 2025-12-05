@@ -1,3 +1,7 @@
+# 2602213-ma1800-web-art project
+
+https://shmiah15-oss.github.io/ma1800-web-art-project/
+
 My web-art project is about recreating the chaos and confusion that people experience while navigating the web.
 
 
@@ -54,3 +58,4 @@ Sources:
 - password.png - Pinterest
 - warning.png - Pinterest
 - noaudio.png - Google images
+
