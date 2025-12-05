@@ -1,0 +1,359 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    position: relative;
+
+}
+
+p { 
+    font-size: 1rem;
+    margin: 0;
+    padding: 0px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/*This the 1st div container*/
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    border: none; 
+    text-align: center;
+
+}
+
+#container .moving {
+    background: rgb(181, 73, 253);
+    animation-delay: 0.5s;
+}
+
+
+
+/*this is the 2nd div container*/
+#container2 {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container2 .moving {
+    background: rgb(255, 106, 245);
+    animation-delay: 1s;
+}
+
+
+/*This the 3rd div container*/
+#container3 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container3 .moving {
+    background: rgb(94, 94, 255);
+    animation-delay: 0.8s;
+}
+
+
+/*This the 4th div container*/
+#container4 {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container4 .moving {
+    background: rgb(87, 255, 165);
+    animation-delay: 4s;
+}
+
+
+
+/*This the 5th div container*/
+#container5 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container5 .moving {
+    background: rgb(255, 188, 94);
+    animation-delay: 5s;
+}
+
+/*This the 6th div container*/
+#container6 {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container6 .moving {
+    background: rgb(255, 94, 94);
+    animation-delay: 2.5s;
+}
+
+
+/*This the 7th div container*/
+#container7 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container7 .moving {
+    background: rgb(119, 32, 199);
+    animation-delay: 3.2s;
+}
+
+
+
+/*This the 8th div container*/
+#container8 {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container8 .moving {
+    background: rgb(94, 255, 242);
+    animation-delay: 7s;
+}
+
+
+/*This the 9th div container*/
+#container9 {
+    position: absolute;
+    top: 7%;
+    left: 80%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container9 .moving {
+    background: rgb(250, 255, 94);
+    animation-delay: 6s;
+}
+
+
+/*This the 10th div container*/
+#container10 {
+    position: absolute;
+    top: 57%;
+    left: 65%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container10 .moving {
+    background: rgb(85, 255, 73);
+    animation-delay: 3.7s;
+}
+
+
+/*This the 11th div container*/
+#container11 {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container11 .moving {
+    background: rgb(213, 36, 107);
+    animation-delay: 1.3s;
+}
+
+
+/*This the 12th div container*/
+#container12 {
+    position: absolute;
+    top: 67%;
+    left: 54%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container12 .moving {
+    background: rgb(220, 137, 13);
+    animation-delay: 2.5s;
+}
+
+
+/*This the 13th div container*/
+#container13 {
+    position: absolute;
+    top: 5%;
+    left: 14%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container13 .moving {
+    background: rgb(23, 13, 220);
+    animation-delay: 8s;
+}
+
+
+/*This the 14th div container*/
+#container14 {
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container14 .moving {
+    background: rgb(202, 127, 150);
+    animation-delay: 4.9s;
+}
+
+
+/*This the 15th div container*/
+#container15 {
+    position: absolute;
+    top: 59%;
+    left: 25%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container15 .moving {
+    background: rgb(93, 171, 16);
+    animation-delay: 3.6s;
+}
+
+
+/*This the 16th div container*/
+#container16 {
+    position: absolute;
+    top: 89%;
+    left: 4%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container16 .moving {
+    background: rgb(119, 24, 138);
+    animation-delay: 7.5s;
+}
+
+
+/*This the 17th div container*/
+#container17 {
+    position: absolute;
+    top: 83%;
+    left: 46%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container17 .moving {
+    background: rgb(220, 85, 13);
+    animation-delay: 6.4s;
+}
+
+
+
+/*This the 18th div container*/
+#container18 {
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    width: 300px;
+    border: none;
+    text-align: center;
+}
+
+#container18 .moving {
+    background: rgb(160, 40, 134);
+    animation-delay: 8.3s;
+}
+
+
+
+
+
+
+
+
+
+
+/* Glow + shake animation 
+https://unused-css.com/blog/css-shake-animation - this website helped me find the 
+code to making the the boxes glow, w3schools helped me find the code for shake 
+- I wanted to give the effect of being a warning*/
+
+
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-4px); }
+    40% { transform: translateX(4px); }
+    60% { transform: translateX(-4px); }
+    80% { transform: translateX(4px); }
+    100% { transform: translateX(0); }
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 0 5px rgb(219, 79, 250); }
+    50% { box-shadow: 0 0 25px rgb(250, 119, 79); }
+    100% { box-shadow: 0 0 5px rgb(79, 79, 250); }
+}
+
+.moving {
+    position: relative;
+    margin: 15px;
+    padding: 10px;
+    color: rgb(252, 252, 252);
+
+
+    animation: 
+        shake 0.5s infinite,
+        glow 1.2s ease-in-out infinite;
+}
+
+
+

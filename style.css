@@ -1,0 +1,141 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(52, 39, 63);
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 10px 0 30px 0;
+    padding: 40px;
+    text-align: center;
+    border: 10px solid #000;
+    border-style: groove;
+    border-radius: 20px;
+    
+}
+
+p {color: #fff;
+
+}
+
+
+/*making the images go side to side, learnt from w3schools*/
+.column {
+    float: left;
+    width: 30%; 
+    padding: 5px; 
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*hover effect, learnt from w3schools*/
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.center {
+    transition: .5s ease;
+    opacity: 0;
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.audio {
+    transition: .5s ease;
+    opacity: 0;
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+.container:hover img {
+    opacity: 0.7;
+}
+
+
+
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.container:hover .center {
+    opacity: 1;
+}
+
+.container:hover .audio {
+    opacity: 1;
+}
+
+
+
+.text {
+    background-color: rgb(38, 13, 59);
+    color: white;
+    font-size: 22px;
+    padding: 20px 36px;
+    border-radius: 20px;
+    backdrop-filter: blur(9px);
+    text-shadow: 0 0 8px white;
+}
+
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #23042b, 0 0 40px #361644, 0 0 50px #521058, 0 0 60px #581079, 0 0 70px #441661;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #8528a1, 0 0 40px #561b68, 0 0 50px #8d3aab, 0 0 60px #c648df, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
+
+
+
+

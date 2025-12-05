@@ -1,0 +1,29 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background: rgb(231, 208, 248);
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 25px 0 10px 0;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid #000;
+    border-style: groove;
+}
+
+#content {
+  width: 600px;
+  margin: 50px auto;
+}
+
+
+#article {
+  min-width: 800px;
+  font-size: 1.2rem;
+}
+

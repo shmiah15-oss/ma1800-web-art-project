@@ -1,0 +1,42 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+    
+
+    background: linear-gradient(-45deg, red, rgb(4, 0, 6), rgb(0, 0, 0), rgb(255, 0, 0));
+    background-size: 400% 400%;
+
+    animation: gradient 1s ease infinite;
+  
+}
+
+
+ @keyframes gradient {
+    0%   { background-position: 0% 50%; }
+    50%   { background-position: 100% 50%; }
+    100%   { background-position: 0% 50%; }
+  }
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60000, 0 0 40px #e60073, 0 0 50px #ff0000, 0 0 60px #e60073, 0 0 70px #ff0404;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4d4d, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+

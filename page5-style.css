@@ -1,0 +1,78 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    color: #fff;
+   
+
+    background: linear-gradient(-45deg, red, rgb(165, 29, 215), skyblue, rgb(252, 15, 153));
+    background-size: 400% 400%;
+
+    animation: gradient 1s ease infinite;
+  
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  
+  @keyframes gradient {
+    0%   { background-position: 0% 50%; }
+    50%   { background-position: 100% 50%; }
+    100%   { background-position: 0% 50%; }
+  }
+
+
+   #container {
+    width: 300px;
+    height: 300px;
+    border: dashed 3px #000000;
+   }
+
+   #container1 {
+    position: relative;
+    left: 301px;
+    bottom: 400px;
+    width: 400px;
+    height: 300px;
+    border: dashed 3px #000000;
+   }
+
+   #box {
+    position: relative;
+    left: 0px;
+    bottom: 307px;
+    width: 400px;
+    height: 300px;
+    border: dashed 3px #000000;
+   }
+
+    #box2 {
+    position: relative;
+    left: 703px;
+    bottom: 1000px;
+    width: 600px;
+    height: 150px;
+    border: dashed 3px #000000;
+   }
+
+    #box3 {
+    position: relative;
+    left: 703px;
+    bottom: 1000px;
+    width: 600px;
+    height: 150px;
+    border: dashed 3px #000000;
+   }
+
+    #box8 {
+    position: relative;
+    left: 703px;
+    bottom: 200px;
+    width: 100px;
+    height: 50px;
+    border: dashed 3px #000000;
+   }
+
+
+
+   
