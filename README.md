@@ -25,7 +25,7 @@ Once you enter one of the pages from the index, you will not have proper access 
 
 Struggles:
 
-I did have a few problems with hover effect in the index page - I did a small misspelling on containter for the audio image/link, which took me a while to notice. Coming up with concepts for every page was also quite difficult becasue I had to take in factor of my skills with code.
+I did have a few problems with hover effect in the index page - I did a small misspelling on container for the audio image/link, which took me a while to notice. Coming up with concepts for every page was also quite difficult becasue I had to take in factor of my skills with code.
 
 
 Reflections:
